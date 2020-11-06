@@ -1,0 +1,18 @@
+body {
+  background-image: url(yellow-grunge2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+img {
+  border-style: solid;
+  border-color: white;
+}
+.modal-backdrop {
+  background-color: rgb(240, 214, 66);
+}
+.card {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+.radius2 {
+  border-radius: 15%;
+}

@@ -1,0 +1,22 @@
+video {
+  background-size: cover;
+  position: fixed;
+}
+body {
+  background-image: url(blue-grunge.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+img {
+  border-style: solid;
+  border-color: white;
+}
+.modal-backdrop {
+  background-color: rgb(50, 105, 208);
+}
+.card {
+  background-color: rgb(255, 255, 255, 0.5);
+}
+.radius {
+  border-radius: 25%;
+}
