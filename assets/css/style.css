@@ -401,8 +401,8 @@ float: none;
   left : -14px;
   right: auto
 }
-.contact-block .h6 {
-  font-size: 10px;
+.contact-block {
+  width: 100%;
 }
 }
  
