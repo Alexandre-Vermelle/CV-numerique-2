@@ -97,6 +97,9 @@ transition: all 0.3s ease-in 0s;
 
 /*EXPERIENCE */
 
+#experience .video{
+  text-align: center;
+}
 
 #experience {
   background:rgb(96, 108, 110) ;
@@ -197,7 +200,9 @@ color: #0069d9;
   }
 
 /*STAGES*/
-
+#stage .video{
+  text-align: center;
+}
 #stage {
   background:rgb(96, 108, 110) ;
 }
@@ -404,7 +409,8 @@ float: none;
   right: auto
 }
 .contact-block {
-  width: 100%;
+  width: 100%; 
 }
+
 }
  

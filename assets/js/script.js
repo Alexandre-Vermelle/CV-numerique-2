@@ -60,10 +60,10 @@ function teacherPasswordSubmit (){
 
 function factoryPasswordSubmit (){
     let factoryPassword = document.getElementById('factoryPassword');
-    let factoryPasswordtest ='usine'
+    let factoryPasswordtest ='aciérie'
         
-    if (factoryPassword.value === 'usine') {
-    alert ("Mes missions pour Arcelor Mittal (anciennement Sollac) étaient les suivantes : J'étais employé en tant que vacancier durant les étés 1999, 2000, 2003 et 2004. J'étais chargé de remettre en état de production les poches servant à la fusion de l'acier dans le secteur des hauts fourneaux de l'usine. Ce travail était posté en 3x8.");
+    if (factoryPassword.value === 'aciérie') {
+    alert ("Mes missions pour Arcelor Mittal (anciennement Sollac) étaient les suivantes : Je fus employé en tant que vacancier durant les étés 1999, 2000, 2003 et 2004. J'étais chargé de remettre en état de production les poches servant à la fusion de l'acier dans le secteur des hauts fourneaux de l'usine. Ce travail était posté en 3x8.");
     }
     else {
         alert ('Le mot de passe est incorrect');
@@ -82,9 +82,9 @@ function officePasswordSubmit (){
 }
 function cityPasswordSubmit (){
     let cityPassword = document.getElementById('cityPassword');
-    let cityPasswordtest ='randonnée'
+    let cityPasswordtest ='territoire'
         
-    if (cityPassword.value === 'randonnée') {
+    if (cityPassword.value === 'territoire') {
     alert ("Lors de ce stage à la Communauté de Communes Artois Flandres, j'avais pour mission de créer et de réhabiliter des sentiers de randonnée. Pour cela, j'ai réalisé un diagnostic de territoire et fait des demandes de subventions.");
     }
     else {
