@@ -97,8 +97,10 @@ transition: all 0.3s ease-in 0s;
 
 /*EXPERIENCE */
 
-#experience .video{
-  text-align: center;
+#experience .video-experience{
+  display: block;
+margin: 0 auto;
+  
 }
 
 #experience {
@@ -200,8 +202,10 @@ color: #0069d9;
   }
 
 /*STAGES*/
-#stage .video{
-  text-align: center;
+#stage .video-experience{
+  display: block;
+margin: 0 auto;
+  
 }
 #stage {
   background:rgb(96, 108, 110) ;
