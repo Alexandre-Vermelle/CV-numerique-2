@@ -1,560 +1,743 @@
 <!DOCTYPE html>
-    <html lang="fr" dir="ltr">
-        <head>
-            <title>CV Alexandre VERMELLE</title>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
-            <link rel='stylesheet' href="assets/css/style.css">
-            <script src="assets/js/script.js"></script>
-        </head>
-        <body>
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:rgb(28, 36, 53)">
-                
-                
-                <a class="navbar-brand font-weight-bold" href="#">CV Alexandre VERMELLE</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#monMenu" aria-controls="monMenu" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span> 
-                </button>
-              
-                <div class="collapse navbar-collapse" id="monMenu">
-                  <ul class="navbar-nav mr-auto active">
-                    <li class="nav-item">
-                      <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#about">Présentation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#skills">Compétences</a>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#experience">Expériences </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#stage">Stages</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#education">Formations</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#contact">Contact</a>
-                      </li>
-                  </ul>
-                </div>
-              </nav>
-              
-           
+<html lang="fr" dir="ltr">
+
+<head>
+    <title>CV Alexandre VERMELLE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/6.2.0/d3.min.js"></script>
+    <link rel='stylesheet' href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color:rgb(28, 36, 53)">
 
 
-        
-            <section id="about" class="container-fluid">
-                <div class=" col-xs-8 col-md-4 profile-picture">
-                    <img src="assets/img/Photo2.jpg" alt="Ma photo" class="img-thumbnail img-fluid" />
-                </div>
-                <div class="heading">
-                    <h1>Alexandre VERMELLE</h1>
-                    <h3>Développeur Web</h3>
-                    <h5> En reconversion professionnelle, le métier de développeur web m'apportera un épanouissement personnel me permettant d'allier deux de mes principales compétences à savoir la rigueur et la créativité.
-                        Toujours à la recherche de nouvelles connaissances, je souhaite apprendre de nombreux langages de programmation afin de me fixer des objectifs toujours plus ambitieux.</h5>
-                    <a href="assets/docs/CV Alexandre Vermelle 2020.pdf" class="button1">Téléchargez mon CV</a>
-                </div>
-            </section>
-             <section id="skills" class="container-fluid">
-                <div class="grey-divider">
-                </div>
-                <div class="heading">
-                    <h2>Compétences<h2>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
-                                    <h5>HTML 60%</h5>
-                                </div>
-                            </div>   
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
-                                   <h5>CSS 60%</h5>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25" style="width:25%;">
-                                    <h5>JAVASCRIPT 25%</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="progress">
-                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
-                                   <h5>BOOTSTRAP 60%</h5>
-                                </div>
-                           </div>   
-                           <div class="progress">
-                               <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
-                                  <h5>WORDPRESS 60%</h5>
-                               </div>
-                           </div>
-                           <div class="progress">
-                               <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65" style="width:65%;">
-                               <h5>ANGLAIS 65%</h5>
-                               </div>
-                           </div>   
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="experience">
-                <div class="white-divider"></div>
-                        <div class="heading">
-                            <h2>Expérience Professionnelle</h2>
-                        </div>
-<div class="container-video">
-                        <video class="video-experience min-vh-200 min-vw-200 embed-responsive" style="max-width: 500px" autoplay="" muted="" loop="">
-                            <source src="assets/img/experiences1.mp4" type="video/mp4" alt="video-code">
-                        </video>
-                </div>
+        <a class="navbar-brand font-weight-bold" href="#">CV Alexandre VERMELLE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#monMenu"
+            aria-controls="monMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                <div class="container">
-                    
-                        
-                        <ul class="timeline">
-                            <li> 
-                                <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                </svg> 
-                                </div>
-                                <div class="timeline-panel-container">
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h3>SANEF</h3>
-                                            <h4>Opérateur Tunnels et Informations Trafic</h4>
-                                            <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                            <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                            </svg> Senlis (60)</p>
-                                            <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                            </svg> 2009-2020</p>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <div class="form-group">
-                                                <img src="assets/img/pc-autoroutes.jpg" />
-                                                <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>autoroutes</strong></label>
-                                                <input type="text" id="sanefPassword" class="form-control" placeholder="mot de passe">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary" id="sanefPasswordSubmit" onclick= "sanefPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                            </svg></button>
-                                        </div>
-                                    </div>  
-                                 </div>
-                            </li>
-                            <li>                           
-                                <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                </svg> 
-                                </div>
-                                <div class="timeline-panel-container-inverted">
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h3>SNCF</h3>
-                                            <h4>Aiguilleur</h4>
-                                            <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                            <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                            </svg> Lens (62), Béthune (62), Pont à Vendin (62)</p>
-                                            <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                            </svg> 2007-2008</p>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <div class="form-group">
-                                                <img src="assets/img/aiguilleur.jpg" />
-                                                <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>trains</strong></label>
-                                                <input type="text" id="sncfPassword" class="form-control" placeholder="mot de passe">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary" id="sncfPasswordSubmit" onclick= "sncfPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                              </svg></button>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </li>
-                            <li>                           
-                                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                    </svg> 
-                                    </div>
-                                    <div class="timeline-panel-container">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3>CFPPA - Lycée Agricole Charles Naveaux</h3>
-                                                <h4>Responsable de formation - Formateur</h4>
-                                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                </svg> Sains du Nord (59)</p>
-                                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                                </svg> 2006-2007</p>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <div class="form-group">
-                                                    <img src="assets/img/formateur.jpg" />
-                                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>formation</strong></label>
-                                                    <input type="text" id="formationPassword" class="form-control" placeholder="mot de passe">
-                                                </div>
-                                                <button type="submit" class="btn btn-primary" id="formationPasswordSubmit" onclick= "formationPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                    <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                                  </svg></button>
-                                             </div>
-                                        </div>  
-                                    </div>
-                                    </li>
-                                    <li>                           
-                                        <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                        </svg> 
-                                        </div>
-                                        <div class="timeline-panel-container-inverted">
-                                            <div class="timeline-panel">
-                                                <div class="timeline-heading">
-                                                    <h3>Collèges et Lycées divers</h3>
-                                                    <h4>Assistant d'éducation</h4>
-                                                    <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                    <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                    </svg> Béthune (62), Norrent Fontes (62)</p>
-                                                    <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                                    </svg> 2006</p>
-                                                </div>
-                                                <div class="timeline-body">
-                                                    <div class="form-group">
-                                                        <img src="assets/img/surveillant.jpg" />
-                                                        <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>éducation</strong></label>
-                                                        <input type="text" id="educationPassword" class="form-control" placeholder="mot de passe">
-                                                    </div>
-                                                    <button type="submit" class="btn btn-primary" id="educationPasswordSubmit" onclick= "educationPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                        <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                                      </svg></button>
-                                                 </div>
-                                            </div>  
-                                        </div>
-                                        </li>
-                                        <li>                           
-                                            <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                            </svg> 
-                                            </div>
-                                            <div class="timeline-panel-container">
-                                                <div class="timeline-panel">
-                                                    <div class="timeline-heading">
-                                                        <h3>Collège Villars</h3>
-                                                        <h4>Enseignant</h4>
-                                                        <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                        <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                        </svg> Denain (59)</p>
-                                                        <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                                        </svg> 2006</p>
-                                                    </div>
-                                                    <div class="timeline-body">
-                                                        <div class="form-group">
-                                                            <img src="assets/img/professeur.jpg" />
-                                                            <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>professeur</strong></label>
-                                                            <input type="text" id="teacherPassword" class="form-control" placeholder="mot de passe">
-                                                        </div>
-                                                        <button type="submit" class="btn btn-primary" id="teacherPasswordSubmit" onclick= "teacherPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                            <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                            <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                                          </svg></button>
-                                                     </div>
-                                                </div>  
-                                            </div>
-                                            </li>
-                                            <li>                           
-                                                <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                                </svg> 
-                                                </div>
-                                                <div class="timeline-panel-container-inverted">
-                                                    <div class="timeline-panel">
-                                                        <div class="timeline-heading">
-                                                            <h3>Arcelor Mittal</h3>
-                                                            <h4>Exploitant poches</h4>
-                                                            <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                            <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                            <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                            </svg> Dunkerque (59)</p>
-                                                            <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                            <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                                            </svg> 1999-2004</p>
-                                                        </div>
-                                                        <div class="timeline-body">
-                                                            <div class="form-group">
-                                                                <img src="assets/img/pocheur.jpg" />
-                                                                <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>aciérie</strong></label>
-                                                                <input type="text" id="factoryPassword" class="form-control" placeholder="mot de passe">
-                                                            </div>
-                                                            <button type="submit" class="btn btn-primary" id="factoryPasswordSubmit" onclick= "factoryPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                                <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                                              </svg></button>
-                                                         </div>
-                                                    </div>  
-                                                </div>
-                                            </li>
-                                        </ul>
-                 </div>
-             </section>
-             <section id="stage">
-                
-                <div class="white-divider"></div>
-                <div class="heading">
-                    <h2>Stages</h2>
-                </div>
-<div class="container-video">
-                <video class="video-experience min-vh-200 min-vw-200 embed-responsive" style="max-width: 500px" autoplay="" muted="" loop="">
-                    <source src="assets/img/stages.mp4" type="video/mp4" alt="video-code">
-                </video>
+        <div class="collapse navbar-collapse" id="monMenu">
+            <ul class="navbar-nav mr-auto active">
+                <li class="nav-item">
+                    <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#about">Présentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#skills">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#experience">Expériences
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#stage">Stages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#education">Formations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light font-weight-bold text-uppercase px-3" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-                    <div class="container">
-                        <ul class="timeline">
-                            <li>                           
-                                <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                </svg> 
-                                </div>
-                                <div class="timeline-panel-container">
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h3>Office de Tourisme d'Aire sur la Lys</h3>
-                                            <h4>Stagiaire</h4>
-                                            <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                            <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                            </svg> Aire sur la Lys (62)</p>
-                                            <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                            </svg> 2004-2009</p>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <div class="form-group">
-                                                <img src="assets/img/office.jpg" />
-                                                <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>tourisme</strong></label>
-                                                <input type="text" id="officePassword" class="form-control" placeholder="mot de passe">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary" id="officePasswordSubmit" onclick= "officePasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                            </svg></button>
-                                        </div>
-                                    </div>  
-                                 </div>
-                            </li>
-                            <li>                           
-                                <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                </svg> 
-                                </div>
-                                <div class="timeline-panel-container-inverted">
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <h3>Communauté de Communes Artois Flandres</h3>
-                                            <h4>Stagiaire</h4>
-                                            <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                            <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                            </svg> Isbergues (62)</p>
-                                            <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                            <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                            </svg> 2003-2004</p>
-                                        </div>
-                                        <div class="timeline-body">
-                                            <div class="form-group">
-                                                <img src="assets/img/Communauté_de_Communes_Artois-Flandres.jpg" />
-                                                <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>territoire</strong></label>
-                                                <input type="text" id="cityPassword" class="form-control" placeholder="mot de passe">
-                                            </div>
-                                            <button type="submit" class="btn btn-primary" id="cityPasswordSubmit" onclick= "cityPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                              </svg></button>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </li>
-                            <li>                           
-                                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z"/>
-                                    </svg> 
-                                    </div>
-                                    <div class="timeline-panel-container">
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h3>Centre d'Aide par le Travail (ESAT)</h3>
-                                                <h4>Stagiaire</h4>
-                                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                </svg> Isbergues (62)</p>
-                                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z"/>
-                                                </svg> 1998-1999</p>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <div class="form-group">
-                                                    <img src="assets/img/handicap.jpg" />
-                                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe suivant et valider : <strong>handicap</strong></label>
-                                                    <input type="text" id="handicapPassword" class="form-control" placeholder="mot de passe">
-                                                </div>
-                                                <button type="submit" class="btn btn-primary" id="handicapPasswordSubmit" onclick= "handicapPasswordSubmit ()">Valider <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                                                    <path fill-rule="evenodd" d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                                  </svg></button>
-                                             </div>
-                                        </div>  
-                                    </div>
-                                    </li>
-                                </ul>
-                 </div>
-             </section>
-             <section id="education">
-                <div class="grey-divider"></div>
-                        <div class="heading">
-                            <h2>FORMATIONS</h2>
-                        </div>
-                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="education-block">
-                                <h5>2020-2021</h5>
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-                                </svg>
-                                <h4>LA MANU, école des métiers <br> du numérique de Noyon</h4>
-                                <div class="white-divider"></div>
-                                <h3>Titre Professionnel «Développeur web et web mobile» (RNCP 31114, BAC+2, Niveau 5)</h3>
-                                <p>Apprentissage des fondamentaux de la culture numérique, du développement Front-End et Back-End</p>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
-                                        <h6>En cours</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="education-block">
-                                <h5>2004-2005</h5>
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-                                </svg>
-                                <h4>Université d'Artois <br> de Béthune</h4>
-                                <div class="white-divider"></div>
-                                <h3>Licence Conduite de Projets <br> en Espace Rural</h3>
-                                <p>Économie et Sociologie du monde rural, diagnostic de territoire, management de projet</p>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;">
-                                       <h6>Diplôme obtenu</h6>
-                                    </div>
-                                </div>
-                            </div> 
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="education-block">
-                                <h5>2002-2004</h5>
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-                                </svg>
-                                <h4>Lycée Agricole Sainte Marie<br> d'Aire sur la Lys</h4>
-                                <div class="white-divider"></div>
-                                <h3>Brevet de Technicien Supérieur Services en Espace Rural</h3>
-                                <p>Mise en place de projets et présentation devant les élus locaux, partenariat avec les acteurs locaux</p>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;">
-                                        <h6>Diplôme obtenu</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="education-block">
-                                <h5>1999-2001</h5>
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-                                </svg>
-                                <h4>Lycée Agricole Sainte Marie<br> d'Aire sur la Lys</h4>
-                                <div class="white-divider"></div>
-                                <h3>Baccalauréat Sciences et Technologies de l'Agronomie et de l'Environnement</h3>
-                                
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;">
-                                        <h6>Diplôme obtenu</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="education-block">
-                                <h5>1997-1999</h5>
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
-                                </svg>
-                                <h4>Lycée Agricole Sainte Marie<br> d'Aire sur la Lys</h4>
-                                <div class="white-divider"></div>
-                                <h3>Brevet d'Etudes Professionnelles Carrières Sanitaires et Sociales</h3>
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%;">
-                                        <h6>Diplôme obtenu</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </section>
-            
+    </nav>
 
-             <section id="contact">
-                <div class="white-divider"></div>
-                        <div class="heading">
-                            <h2>CONTACT</h2>
-                        </div>     
-                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="contact-block">
-                                <h5>Alexandre VERMELLE</h5>
-                                <h5>49 rue de la montinette</h5>
-                                <h5>60162 ANTHEUIL PORTES</h5>
-                                <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.444299253618!2d2.753425515517!3d49.49500317935492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d082a943718d%3A0xcdd9f2270ee5b910!2s49%20Rue%20de%20la%20Montinette%2C%2060162%20Antheuil-Portes!5e0!3m2!1sfr!2sfr!4v1603440521024!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+
+
+    <section id="about" class="container-fluid">
+        <div class=" col-xs-8 col-md-4 profile-picture">
+            <img src="assets/img/Photo2.jpg" alt="Ma photo" class="img-thumbnail img-fluid" />
+        </div>
+        <div class="heading">
+            <h1>Alexandre VERMELLE</h1>
+            <h3>Développeur Web</h3>
+            <h5> En reconversion professionnelle, le métier de développeur web m'apportera un épanouissement personnel
+                me permettant d'allier deux de mes principales compétences à savoir la rigueur et la créativité.
+                Toujours à la recherche de nouvelles connaissances, je souhaite apprendre de nombreux langages de
+                programmation afin de me fixer des objectifs toujours plus ambitieux.</h5>
+            <a href="assets/docs/CV Alexandre Vermelle 2020.pdf" class="button1">Téléchargez mon CV</a>
+        </div>
+    </section>
+    <section id="skills" class="container-fluid">
+        <div class="grey-divider">
+        </div>
+        <div class="heading">
+            <h2>Compétences<h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
+                            <h5>HTML 60%</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
+                            <h5>CSS 60%</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="30" aria-valuemin="0" aria-valuemax="30" style="width:30%;">
+                            <h5>JAVASCRIPT 30%</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
+                            <h5>BOOTSTRAP 60%</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="60" aria-valuemin="0" aria-valuemax="60" style="width:60%;">
+                            <h5>WORDPRESS 60%</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="40" style="width:40%;">
+                            <h5>SQL 40%</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="40" style="width:40%;">
+                            <h5>PHP 40%</h5>
+                        </div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                            aria-valuenow="65" aria-valuemin="0" aria-valuemax="65" style="width:65%;">
+                            <h5>ANGLAIS 65%</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="white-divider"></div>
+        <div class="heading">
+            <h2>Expérience Professionnelle</h2>
+        </div>
+        <div class="container-video">
+            <video class="video-experience min-vh-200 min-vw-200 embed-responsive" style="max-width: 500px" autoplay=""
+                muted="" loop="">
+                <source src="assets/img/experiences1.mp4" type="video/mp4" alt="video-code">
+            </video>
+        </div>
+        <div class="container">
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>SANEF</h3>
+                                <h4>Opérateur Tunnels et Informations Trafic</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Senlis (60)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 2009-2020</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/pc-autoroutes.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>autoroutes</strong></label>
+                                    <input type="text" id="sanefPassword" class="form-control"
+                                        placeholder="mot de passe">
                                 </div>
-                                <br>
-                                <h6>06.17.59.62.53</h6>
-                                <h6><a href="mailto:alexandre.vermelle@gmail.com">alexandre.vermelle@gmail.com</a></h6>
-                                <div class="grey-divider"></div>
-                                <h6>Vous pouvez également me suivre sur :</h6>
-                                <p class="text-center"><a href="https://www.linkedin.com/in/alexandre-vermelle-76a556176/" target="_blank"><img class="radius" src="assets/img/LinkedIn-logo.jpg"alt="Logo Linkedin" title="Linkedin" /></a><a href="https://twitter.com/AlexVermelle" target="_blank"><img class="radius" src="assets/img/twitter.png" alt="Logo Twitter" title="Twitter" /></a><a href="https://www.facebook.com/alexandre.vermelle.92" target="_blank"><img class="radius" src="assets/img/facebook.png"alt="Logo Facebook" title="Facebook" /></a></p>
+                                <button type="submit" class="btn btn-primary" id="sanefPasswordSubmit"
+                                    onclick="sanefPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>SNCF</h3>
+                                <h4>Aiguilleur</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Lens (62), Béthune (62), Pont à Vendin (62)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 2007-2008</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/aiguilleur.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>trains</strong></label>
+                                    <input type="text" id="sncfPassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="sncfPasswordSubmit"
+                                    onclick="sncfPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>CFPPA - Lycée Agricole Charles Naveaux</h3>
+                                <h4>Responsable de formation - Formateur</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Sains du Nord (59)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 2006-2007</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/formateur.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>formation</strong></label>
+                                    <input type="text" id="formationPassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="formationPasswordSubmit"
+                                    onclick="formationPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Collèges et Lycées divers</h3>
+                                <h4>Assistant d'éducation</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Béthune (62), Norrent Fontes (62)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 2006</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/surveillant.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>éducation</strong></label>
+                                    <input type="text" id="educationPassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="educationPasswordSubmit"
+                                    onclick="educationPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Collège Villars</h3>
+                                <h4>Enseignant</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Denain (59)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 2006</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/professeur.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>professeur</strong></label>
+                                    <input type="text" id="teacherPassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="teacherPasswordSubmit"
+                                    onclick="teacherPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Arcelor Mittal</h3>
+                                <h4>Exploitant poches</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Dunkerque (59)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 1999-2004</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/pocheur.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>aciérie</strong></label>
+                                    <input type="text" id="factoryPassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="factoryPasswordSubmit"
+                                    onclick="factoryPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="stage">
+
+        <div class="white-divider"></div>
+        <div class="heading">
+            <h2>Stages</h2>
+        </div>
+        <div class="container-video">
+            <video class="video-experience min-vh-200 min-vw-200 embed-responsive" style="max-width: 500px" autoplay=""
+                muted="" loop="">
+                <source src="assets/img/stages.mp4" type="video/mp4" alt="video-code">
+            </video>
+        </div>
+        <div class="container">
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Office de Tourisme d'Aire sur la Lys</h3>
+                                <h4>Stagiaire</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Aire sur la Lys (62)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 2004-2009</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/office.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>tourisme</strong></label>
+                                    <input type="text" id="officePassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="officePasswordSubmit"
+                                    onclick="officePasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Communauté de Communes Artois Flandres</h3>
+                                <h4>Stagiaire</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Isbergues (62)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 2003-2004</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/Communauté_de_Communes_Artois-Flandres.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>territoire</strong></label>
+                                    <input type="text" id="cityPassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="cityPasswordSubmit"
+                                    onclick="cityPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                            class="bi bi-bag-dash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.5 3.5a2.5 2.5 0 0 1 5 0V4h-5v-.5zm6 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zM6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1H6z" />
+                        </svg>
+                    </div>
+                    <div class="timeline-panel-container">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3>Centre d'Aide par le Travail (ESAT)</h3>
+                                <h4>Stagiaire</h4>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt"
+                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+                                        <path fill-rule="evenodd"
+                                            d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                                    </svg> Isbergues (62)</p>
+                                <p class="text-muted"><svg width="1em" height="1em" viewBox="0 0 16 16"
+                                        class="bi bi-stopwatch" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07A7.001 7.001 0 0 1 8 16 7 7 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3zm0 2.1a.5.5 0 0 1 .5.5V9a.5.5 0 0 1-.5.5H4.5a.5.5 0 0 1 0-1h3V5.6a.5.5 0 0 1 .5-.5z" />
+                                    </svg> 1998-1999</p>
+                            </div>
+                            <div class="timeline-body">
+                                <div class="form-group">
+                                    <img src="assets/img/handicap.jpg" />
+                                    <label>Pour en savoir plus sur cette expérience, veuillez taper le mot de passe
+                                        suivant et valider : <strong>handicap</strong></label>
+                                    <input type="text" id="handicapPassword" class="form-control"
+                                        placeholder="mot de passe">
+                                </div>
+                                <button type="submit" class="btn btn-primary" id="handicapPasswordSubmit"
+                                    onclick="handicapPasswordSubmit ()">Valider <svg width="1em" height="1em"
+                                        viewBox="0 0 16 16" class="bi bi-chat-left-text" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M14 1H2a1 1 0 0 0-1 1v11.586l2-2A2 2 0 0 1 4.414 11H14a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                                        <path fill-rule="evenodd"
+                                            d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z" />
+                                    </svg></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="education">
+        <div class="grey-divider"></div>
+        <div class="heading">
+            <h2>FORMATIONS</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2020-2021</h5>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                        </svg>
+                        <h4>LA MANU, école des métiers <br> du numérique de Noyon</h4>
+                        <div class="white-divider"></div>
+                        <h3>Titre Professionnel «Développeur web et web mobile» (RNCP 31114, BAC+2, Niveau 5)</h3>
+                        <p>Apprentissage des fondamentaux de la culture numérique, du développement Front-End et
+                            Back-End</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="85" aria-valuemin="0" aria-valuemax="85" style="width:85%;">
+                                <h6>En cours</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-             </section>  
-             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        </body>
-    </html>
+                <div class="col-sm-3"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2004-2005</h5>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                        </svg>
+                        <h4>Université d'Artois <br> de Béthune</h4>
+                        <div class="white-divider"></div>
+                        <h3>Licence Conduite de Projets <br> en Espace Rural</h3>
+                        <p>Économie et Sociologie du monde rural, diagnostic de territoire, management de projet</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+                                <h6>Diplôme obtenu</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>2002-2004</h5>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                        </svg>
+                        <h4>Lycée Agricole Sainte Marie<br> d'Aire sur la Lys</h4>
+                        <div class="white-divider"></div>
+                        <h3>Brevet de Technicien Supérieur Services en Espace Rural</h3>
+                        <p>Mise en place de projets et présentation devant les élus locaux, partenariat avec les acteurs
+                            locaux</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+                                <h6>Diplôme obtenu</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>1999-2001</h5>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                        </svg>
+                        <h4>Lycée Agricole Sainte Marie<br> d'Aire sur la Lys</h4>
+                        <div class="white-divider"></div>
+                        <h3>Baccalauréat Sciences et Technologies de l'Agronomie et de l'Environnement</h3>
+
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+                                <h6>Diplôme obtenu</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="education-block">
+                        <h5>1997-1999</h5>
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M8.5 2.687v9.746c.935-.53 2.12-.603 3.213-.493 1.18.12 2.37.461 3.287.811V2.828c-.885-.37-2.154-.769-3.388-.893-1.33-.134-2.458.063-3.112.752zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+                        </svg>
+                        <h4>Lycée Agricole Sainte Marie<br> d'Aire sur la Lys</h4>
+                        <div class="white-divider"></div>
+                        <h3>Brevet d'Etudes Professionnelles Carrières Sanitaires et Sociales</h3>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="100"
+                                aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+                                <h6>Diplôme obtenu</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="white-divider"></div>
+        <div class="heading">
+            <h2>CONTACT</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact-block">
+                        <h5>Alexandre VERMELLE</h5>
+                        <h5>49 rue de la montinette</h5>
+                        <h5>60162 ANTHEUIL PORTES</h5>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.444299253618!2d2.753425515517!3d49.49500317935492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d082a943718d%3A0xcdd9f2270ee5b910!2s49%20Rue%20de%20la%20Montinette%2C%2060162%20Antheuil-Portes!5e0!3m2!1sfr!2sfr!4v1603440521024!5m2!1sfr!2sfr"
+                                width="300" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                                aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <br>
+                        <h6>06.17.59.62.53</h6>
+                        <h6><a href="mailto:alexandre.vermelle@gmail.com">alexandre.vermelle@gmail.com</a></h6>
+                        <div class="grey-divider"></div>
+                        <h6>Vous pouvez également me suivre sur :</h6>
+                        <p class="text-center"><a href="https://www.linkedin.com/in/alexandre-vermelle-76a556176/"
+                                target="_blank"><img class="radius" src="assets/img/LinkedIn-logo.jpg"
+                                    alt="Logo Linkedin" title="Linkedin" /></a><a
+                                href="https://twitter.com/AlexVermelle" target="_blank"><img class="radius"
+                                    src="assets/img/twitter.png" alt="Logo Twitter" title="Twitter" /></a><a
+                                href="https://www.facebook.com/alexandre.vermelle.92" target="_blank"><img
+                                    class="radius" src="assets/img/facebook.png" alt="Logo Facebook"
+                                    title="Facebook" /></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
