@@ -96,7 +96,9 @@ transition: all 0.3s ease-in 0s;
 }
 .progress-bar {
   text-align: center;
-
+}
+.adobe-progress{
+  background-color: #e9ecef;
 }
 
 /*EXPERIENCE */
@@ -419,8 +421,6 @@ float: none;
 .contact-block {
   width: 100%; 
 }
-#skills .progress {
-  height: 80%;
-}
+
 }
  
