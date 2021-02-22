@@ -81,14 +81,13 @@ transition: all 0.3s ease-in 0s;
 
 #skills{
   background: white;
-  margin-bottom: 5%;
 }
 #skills .heading h2{
   color : rgb(96, 108, 110);
   font-weight: bold;
 }
 #skills .progress {
-  height: 20%;
+  height: 30%;
   margin: 30px 20px; 
 }
 #skills .progress h5{
