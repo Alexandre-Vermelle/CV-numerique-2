@@ -87,12 +87,16 @@ transition: all 0.3s ease-in 0s;
   font-weight: bold;
 }
 #skills .progress {
-  height: 30%;
+  height: 60%;
   margin: 30px 20px; 
 }
 #skills .progress h5{
   font-size: 15px;
   text-shadow: 1px 1px 1px black;
+}
+.progress-bar {
+  text-align: center;
+
 }
 
 /*EXPERIENCE */
