@@ -419,6 +419,8 @@ float: none;
 .contact-block {
   width: 100%; 
 }
-
+#skills .progress {
+  height: 80%;
+}
 }
  
