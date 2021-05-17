@@ -40,6 +40,11 @@ section {
 ul,ol {
   list-style: none;
 }
+.password {
+color: rgb(0, 81, 255);
+font-weight: bold;
+}
+
 /*MENU*/
 
 
