@@ -362,16 +362,15 @@ color: #0069d9;
   height: 20%;
   margin: 30px 20px; 
 }
+/* PORTFOLIO */
 
-/*CONTACT*/
-
-#contact {
+#portfolio {
   background: rgb(96, 108, 110);
 }
-#contact .heading h2 {
+#portfolio .heading h2 {
   color: white;
 }
-.contact-block {
+.portfolio-block {
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -382,8 +381,46 @@ color: #0069d9;
   margin-bottom: 20px;
 
 }
-.contact-block h5 {
+.portfolio-block h5 {
   color:rgb(96, 108, 110) ;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.portfolio-block h6{
+ font-size: 18px;
+ color: rgb(96, 108, 110);
+ margin-bottom: 20px;
+}
+.portfolio-block .white-divider{
+ margin-bottom: 20px;
+}
+.img-fluid{
+  border: solid 1px rgb(96, 108, 110);
+}
+
+/*CONTACT*/
+
+#contact {
+  background: white;
+}
+#contact .heading h2 {
+  color: rgb(96, 108, 110);
+}
+.contact-block {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  background: rgb(96, 108, 110);
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+
+}
+.contact-block h5 {
+  color:white ;
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 15px;
@@ -391,7 +428,7 @@ color: #0069d9;
 
 .contact-block h6{
  font-size: 18px;
- color: rgb(96, 108, 110);
+ color: white;
  margin-bottom: 20px;
 }
 .contact-block .white-divider{
