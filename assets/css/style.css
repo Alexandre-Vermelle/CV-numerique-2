@@ -467,6 +467,11 @@ ol {
     margin-bottom: 20px;
 }
 
+#portfolio .video-formation {
+    display: block;
+    margin: 0 auto;
+}
+
 
 /*CONTACT*/
 
