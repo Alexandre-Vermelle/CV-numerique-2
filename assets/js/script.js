@@ -3,7 +3,7 @@ function sanefPasswordSubmit (){
     let sanefPasswordtest ='autoroutes'
     
     if (sanefPassword.value === 'autoroutes') {
-    alert ("Mes missions au sein du Groupe SANEF étaient les suivantes : J'étais en charge de l'exploitation des tunnels de Roissy (95), Saint Germain en Laye (78), Hardelot (62) et Gometz (91). Je devais effectuer les fermetures d'urgence de ces ouvrages en cas de détection de pannes techniques, d'incendie, de véhicules roulant à contresens entre autres. De ce fait, j'étais en charge de la sécurité des agents sur le terrain et des clients. Je contrôlais également la cohérence des informations trafic notamment lors des situations de crise. Je consolidais ces informations par le biais d'alertes trafic, de synthèses trafic, de messages sur les réseaux sociaux (Twitter, WAZE, application sanef mobile), de la radio d'autoroute 107.7 FM. J'étais l'interlocuteur privilégié de la direction du Groupe, des autorités zonales (préfectures, gendarmeries...) ou centrales (ministéres,...), des clients, de certains médias (journaux locaux, France 2...). Par ailleurs, j'analysais les données trafic et je réalisais des rapports remis à la Direction des Infrastructures de Transport. Ce travail était posté en 3x8.");
+    alert ("Mes missions au sein du Groupe SANEF étaient les suivantes : J'étais en charge de la messagerie et unique point d'entrée des mails extérieurs (ministères, préfectures, DIR, CRICR) et des appels (clients). Je retransmettais toutes ces informations aux personnes concernées et j'organisais des réunions notamment lors des situations de crise. De ce fait, j'étais l'interlocuteur privilégié de la direction du Groupe, des autorités zonales et centrales, des clients, des animateurs de la radio 107.7 FM, de certains médias (journaux locaux, France 2...). Je contrôlais la cohérence des informations trafic et je les consolidais par le biais d'alertes trafic, de synthèses trafic, de messages sur les réseaux sociaux (Twitter, WAZE, application Sanef mobile). Par ailleurs, j'analysais les données trafic et je réalisais des rapports remis à la Direction des Infrastructures de Transport. Suite à une réorganisation, je fus par la suite en charge de l'exploitation des tunnels de Roissy (95), Saint Germain en Laye (78), Hardelot (62) et Gometz (91). Je devais effectuer les fermetures d'urgence de ces ouvrages en cas de détection de pannes techniques, d'incendie, de véhicules roulant à contresens entre autres. Par conséquent, j'assurais la sécurité des agents sur le terrain et des clients. Ce travail était posté en 3x8.");  
     }
     else {
       alert ('Le mot de passe est incorrect');
@@ -27,7 +27,7 @@ function formationPasswordSubmit (){
     let formationPasswordtest ='formation'
         
     if (formationPassword.value === 'formation') {
-    alert ("Mes missions au CFPPA de Sains du Nord furent les suivantes : J'assurais la gestion pédagogique et administrative d'une formation intitulée CS Tourisme. J'encadrais l'équipe éducative et je réalisais les planning. J'étais formateur auprès d'un groupe d'adultes et leur enseignais la méthodologie de projet et la sociologie du monde rural. Je les ai suivi dans la mise en place de leur projet professionnel et leur ai rendu visite lors de leur stage. J'ai organisé les sessions d'examens et j'ai préparé le recrutement des apprenants de la session suivante. J'ai commencé à étudier la faisabilité de la création d'un centre de formation transfrontalier en coopération avec la société 'Inialité' basée à Hirson (02) dans le cadre du développement du territoire en matière de formation notamment dans le domaine du tourisme.");    
+    alert ("Mes missions au CFPPA de Sains du Nord furent les suivantes : J'assurais la gestion administrative et pédagogique d'une formation intitulée CS Tourisme. J'encadrais l'équipe éducative et je réalisais les planning. J'étais formateur auprès d'un groupe d'adultes et leur enseignais la méthodologie de projet et la sociologie du monde rural. Je les ai suivi dans la mise en place de leur projet professionnel et leur ai rendu visite lors de leur stage. J'ai organisé les sessions d'examens et j'ai préparé le recrutement des apprenants de la session suivante. J'ai commencé à étudier la faisabilité de la création d'un centre de formation transfrontalier en coopération avec la société 'Inialité' basée à Hirson (02) dans le cadre du développement du territoire en matière de formation notamment dans le domaine du tourisme.");    
     }
     else {
     alert ('Le mot de passe est incorrect');
@@ -74,7 +74,7 @@ function officePasswordSubmit (){
     let officePasswordtest ='tourisme'
         
     if (officePassword.value === 'tourisme') {
-    alert ("Mes missions à l'Office de tourisme d'Aire sur la Lys étaient les suivantes : J'assurais la tenue de l'Office de Tourisme (Accueil des touristes, Secrétariat...). J'animais des événements lors de salons ou de fêtes (Salon Tourissima à Lille, Brocante, Marché de Noël...). J'ai mis en place des partenariats avec les acteurs locaux et j'ai créé des supports de communication (dépliants, plaquettes...). J'ai rédigé un mémoire sur la problématique 'Comment attirer plus de touristes sur la ville d'Aire sur la Lys ?'. A la suite de mon stage, je suis resté membre bénévole jusqu'en 2009.");
+    alert ("Mes missions à l'Office de tourisme d'Aire sur la Lys étaient les suivantes : J'assurais la tenue de l'Office de Tourisme (Gestion administrative, Accueil des touristes,...). J'animais des événements lors de salons ou de fêtes (Salon Tourissima à Lille, Brocante, Marché de Noël...). J'ai mis en place des partenariats avec les acteurs locaux et j'ai créé des supports de communication (dépliants, plaquettes...). J'ai rédigé un mémoire sur la problématique 'Comment attirer plus de touristes sur la ville d'Aire sur la Lys ?'. A la suite de mon stage, je suis resté membre bénévole jusqu'en 2009.");
     }
     else {
         alert ('Le mot de passe est incorrect');
@@ -92,10 +92,10 @@ function cityPasswordSubmit (){
     } 
 }
 function handicapPasswordSubmit (){
-    let handicapPassword = document.getElementById('handicapPassword');
-    let handicapPasswordtest ='handicap'
+    let cityPassword = document.getElementById('handicapPassword');
+    let cityPasswordtest ='handicap'
         
-    if (handicapPassword.value === 'handicap') {
+    if (cityPassword.value === 'handicap') {
     alert ("Durant mon stage au CAT d'Isbergues, j'encadrais un groupe d'adultes handicapés dans différentes activités (maçonnerie, entretien des espaces verts, menuiserie, conditionnement). J'animais des activités sportives ou culturelles (VTT, football, visite de Clairmarais...).");
     }
     else {
